@@ -1,0 +1,3 @@
+C:/Users/NIRUJA/Desktop/Github/machine_learning/cmake-build-debug/CMakeFiles/machine_learning.dir
+C:/Users/NIRUJA/Desktop/Github/machine_learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/NIRUJA/Desktop/Github/machine_learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
