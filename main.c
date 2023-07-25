@@ -34,14 +34,15 @@ int main() {
 //        y[i] = f(x[i]);
 //    }
 
-    float c = 0.01f;
-    float m = 2.0f;
+    float c = 0.001f;
+    float m = 3.0f;
     float p = 0;
-    float x1[100];
-    float z1=2.169;
+    float x1[200];
+    float z1=0.412f;
     for (int i = 0; i < sizeof(x1)/4; ++i) {
         x1[i]=z1;
-        float p_new = max(m*exp(-i*0.15),0.9)*p+ gradF(z1);
+        float p_new = max(m*exp(-i*0.15),0.96)*p+ gradF(z1);
+//        float p_new = m*p+ gradF(z1);
         float z1_new = z1-c* p_new;
         p = p_new;
         z1 = z1_new;
@@ -60,7 +61,7 @@ int main() {
 //    printf("Minima : f(%f)=%f\n",z,f(z));
 
 
-    char str[1024];
+    char str[3024];
     int ptr = 0;
     for (int i = 0; i < sizeof(x1)/4; ++i)
         ptr+=sprintf(str+ptr, "%f \n",x1[i]);
