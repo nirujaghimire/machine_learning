@@ -3,4 +3,7 @@ project(machine_learning C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(machine_learning main.c)
+add_executable(machine_learning
+        #        gradient_descent.c
+        linear_regression.c
+        )

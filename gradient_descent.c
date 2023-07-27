@@ -67,8 +67,5 @@ int main() {
         ptr+=sprintf(str+ptr, "%f \n",x1[i]);
 //    printf("%s",str);
     copyToClipboard(str);
-
-
-
     return 0;
 }
