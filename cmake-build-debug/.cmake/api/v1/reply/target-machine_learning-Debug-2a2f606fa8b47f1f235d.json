@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linear_regression_batch.c",
+			"path" : "linear_regression_batch_momentum.c",
 			"sourceGroupIndex" : 0
 		}
 	],

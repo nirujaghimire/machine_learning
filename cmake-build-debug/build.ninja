@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/NIRUJA/Desktop/Github/machine_learning/cmake-bui
 
 build cmake_object_order_depends_target_machine_learning: phony || CMakeFiles/machine_learning.dir
 
-build CMakeFiles/machine_learning.dir/linear_regression_batch.c.obj: C_COMPILER__machine_learning_Debug C$:/Users/NIRUJA/Desktop/Github/machine_learning/linear_regression_batch.c || cmake_object_order_depends_target_machine_learning
-  DEP_FILE = CMakeFiles\machine_learning.dir\linear_regression_batch.c.obj.d
+build CMakeFiles/machine_learning.dir/linear_regression_batch_momentum.c.obj: C_COMPILER__machine_learning_Debug C$:/Users/NIRUJA/Desktop/Github/machine_learning/linear_regression_batch_momentum.c || cmake_object_order_depends_target_machine_learning
+  DEP_FILE = CMakeFiles\machine_learning.dir\linear_regression_batch_momentum.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu2x
   OBJECT_DIR = CMakeFiles\machine_learning.dir
   OBJECT_FILE_DIR = CMakeFiles\machine_learning.dir
@@ -63,7 +63,7 @@ build CMakeFiles/machine_learning.dir/linear_regression_batch.c.obj: C_COMPILER_
 #############################################
 # Link the executable machine_learning.exe
 
-build machine_learning.exe: C_EXECUTABLE_LINKER__machine_learning_Debug CMakeFiles/machine_learning.dir/linear_regression_batch.c.obj
+build machine_learning.exe: C_EXECUTABLE_LINKER__machine_learning_Debug CMakeFiles/machine_learning.dir/linear_regression_batch_momentum.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\machine_learning.dir
