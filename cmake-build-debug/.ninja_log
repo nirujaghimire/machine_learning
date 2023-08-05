@@ -1,9 +1,16 @@
 # ninja log v5
 7	1922	7119700994369041	CMakeFiles/machine_learning.dir/main.c.obj	53fb18dfb5ee4a0b
-1147	1290	7121589116719995	machine_learning.exe	f3c7b3e19f591110
 29	2451	7121584888416398	CMakeFiles/machine_learning.dir/linear_regression_stochastic.c.obj	f53219e05167bbf0
+1127	1266	7126490255076278	machine_learning.exe	c41a8bed5af6d66c
+1	1080	7126490648769051	build.ninja	2416d3da59d0d2dc
 4	1156	7120701942485260	CMakeFiles/machine_learning.dir/linear_regression.c.obj	95a6ff407b31c37f
 5	1146	7121589115323742	CMakeFiles/machine_learning.dir/linear_regression_batch.c.obj	da23c85e9f18ac40
 0	2478	7121584888546058	CMakeFiles/machine_learning.dir/gradient_descent.c.obj	5cd9c1b3cb09d50b
 4	1755	7122294258096862	CMakeFiles/machine_learning.dir/linear_regression_batch_momentum.c.obj	8763081643803380
-1759	2695	7122294267559528	machine_learning.exe	bd4543509536b917
+3	1126	7126490253708510	CMakeFiles/machine_learning.dir/exponential_fitting_batch_momentum.c.obj	d9cbd0edf5bcfc14
+0	1515	7126500976707247	CMakeFiles/machine_learning.dir/single_neuron.c.obj	2d47b68d6c1c6ce1
+1520	1654	7126500978063664	machine_learning.exe	8ac1d4961b503895
+2	1019	7126502836357752	CMakeFiles/machine_learning.dir/single_neuron.c.obj	2d47b68d6c1c6ce1
+1020	1159	7126502837704147	machine_learning.exe	8ac1d4961b503895
+4	1111	7126503051809852	CMakeFiles/machine_learning.dir/single_neuron.c.obj	2d47b68d6c1c6ce1
+1112	1248	7126503053136296	machine_learning.exe	8ac1d4961b503895

@@ -7,6 +7,9 @@ add_executable(machine_learning
 #        gradient_descent.c
 #        linear_regression_stochastic.c
 #        linear_regression_batch.c
-        linear_regression_batch_momentum.c
+#        linear_regression_batch_momentum.c
 #        curve_fitting_with_GD.c
+#        exponential_fitting_batch_momentum.c
+        single_neuron.c
+
         )
